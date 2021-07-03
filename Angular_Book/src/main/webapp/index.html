@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="bookApp">
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Book</title>
+	<script src="lib/angular.min.js"></script>
+	<script src="js/angular_book.js"></script>
+</head>
+<body>
+<div ng-controller="bookCtrl">
+        <table border="1">
+            <tr>
+                <td>Book Name</td>
+                <td ng-bind="book"></td>
+            </tr>
+            <tr>
+                <td>Author</td>
+                <td ng-bind="author"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
